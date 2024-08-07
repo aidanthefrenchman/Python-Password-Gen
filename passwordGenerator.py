@@ -18,11 +18,22 @@ thisdict = {
     "Bathtub":"Noun", "Pursuit":"Noun",
 
 }
-
+#there are .keys and there are .items in a dictionary. the former is the first value and the latter is both the firat and second values.
 def generate_password():
     characters = random.choice(list(thisdict.keys())) , random.choice(list(thisdict.keys())) , random.randrange(000, 999, 1)
     return (characters)
 
 password = generate_password()
+print("Hello! Welcome to your new password!")
+print(".")
 print(password)
+print(".")
+print("Combine the two words and three digit number as so:")
+print("e.g. ('Grand', 'Show', 100) becomes GrandShow100")
+print("This password will be used for all of the accounts associated with your B&G email.")
+print(".")
+print(".")
+print(".")
+print("This password generator for the express purpose of creating passwords for new users @ Bartle & Gibson Co Ltd.")
+print("© 2024 Aidan Kosak")
 input()
