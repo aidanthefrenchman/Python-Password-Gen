@@ -1,6 +1,6 @@
 import random
 
-# © 2024 Aidan Kosak | This password generator for the express purpose of creating passwords for new users @ Bartle & Gibson Co Ltd.
+# © 2024 aidanthefrenchman | This password generator for the express purpose of creating passwords for new users at work
 
 library = {
     # 5 Letter Words
@@ -43,5 +43,5 @@ print(".")
 print(".")
 print(".")
 print("This password generator for the express purpose of creating passwords for new users @ Bartle & Gibson Co Ltd.")
-print("© 2024 Aidan Kosak")
+print("© 2024 aidanthefrenchman")
 input()
